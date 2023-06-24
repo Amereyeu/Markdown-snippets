@@ -6,8 +6,8 @@
 
 <p align="center">
   <a href="https://github.com/Amereyeu/Markdown-snippets"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="GitHub license"></a>
-  <a href="https://open-vsx.org/extension/Amerey/blackplusplus"><img src="https://img.shields.io/open-vsx/v/Amerey/blackplusplus?label=Open%20VSX" alt="Open VSX Version"></a> 
-  <a href="https://open-vsx.org/extension/Amerey/blackplusplus"><img src="https://img.shields.io/open-vsx/dt/Amerey/blackplusplus?label=Open%20VSX%20Downloads" alt="Open VSX Downloads"></a>
+  <a href="https://open-vsx.org/extension/Amerey/markdown-snippets"><img src="https://img.shields.io/open-vsx/v/Amerey/blackplusplus?label=Open%20VSX" alt="Open VSX Version"></a> 
+  <a href="https://open-vsx.org/extension/Amerey/markdown-snippets"><img src="https://img.shields.io/open-vsx/dt/Amerey/blackplusplus?label=Open%20VSX%20Downloads" alt="Open VSX Downloads"></a>
   <a href="https://ko-fi.com/amerey"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-$4-orange" alt="Buy me a coffee"></a>
 </p>
 
