@@ -1,0 +1,41 @@
+{
+  "name": "markdown-snippets",
+  "displayName": "Markdown Snippets",
+  "description": "Markdown snippets for VS Codium",
+  "publisher": "Amerey",
+  "author": {
+    "name": "Amerey"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amereyeu/Markdown-snippets.git"
+  },
+  "galleryBanner": {
+    "color": "#000",
+    "theme": "dark"
+  },
+  "icon": "images/logo.png",
+  "keywords": [
+    "markdown",
+    "snippets",
+    "markdown snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "license": "MIT"
+}
+
+
