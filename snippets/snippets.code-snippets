@@ -1,1 +1,134 @@
-{}
+{
+  "Inline Code": {
+    "prefix": "md-inline",
+    "description": "Markdown Inline Code",
+    "body": ["`$1` $0"]
+  },
+  "Block Code": {
+    "prefix": "md-block",
+    "body": ["```$1", "$2", "```$0"],
+    "description": "Markdown Blog Code"
+  },
+  "Heading 1": {
+    "prefix": "md-heading-1",
+    "body": ["# ${1:heading1} $0"],
+    "description": "Markdown Heading 1"
+  },
+  "Heading 2": {
+    "prefix": "md-heading-2",
+    "body": ["## ${1:heading2} $0"],
+    "description": "Markdown Heading 2"
+  },
+  "Heading 3": {
+    "prefix": "md-heading-3",
+    "body": ["### ${1:heading3} $0"],
+    "description": "Markdown Heading 3"
+  },
+  "Heading 4": {
+    "prefix": "md-heading-4",
+    "body": ["#### ${1:heading4} $0"],
+    "description": "Markdown Heading 4"
+  },
+  "Heading 5": {
+    "prefix": "md-heading-5",
+    "body": ["##### ${1:heading5} $0"],
+    "description": "Markdown Heading 5"
+  },
+  "Heading 6": {
+    "prefix": "md-heading-6",
+    "body": ["###### ${1:heading6} $0"],
+    "description": "Markdown Heading 6"
+  },
+  "Italic Text": {
+    "prefix": "md-italic ",
+    "body": ["*${1:italic}* $0"],
+    "description": "Markdown Italic Text"
+  },
+  "Bold Text": {
+    "prefix": "md-bold ",
+    "body": ["**${1:bold}** $0"],
+    "description": "Markdown Bold Text"
+  },
+  "Bold Italic Text": {
+    "prefix": "md-bold-italic ",
+    "body": ["***${1:bold-italic}*** $0"],
+    "description": "Markdown Bold Italic Text"
+  },
+  "Strikethrough Text": {
+    "prefix": "md-strikethrough ",
+    "body": ["~~${1:strikethrough}~~ $0"],
+    "description": "Markdown Strikethrough Text"
+  },
+  "Ordered List": {
+    "prefix": "md-ordered-list ",
+    "body": ["1. ${1:list-item} $0"],
+    "description": "Markdown Ordered List"
+  },
+  "Unordered List": {
+    "prefix": "md-unordered-list ",
+    "body": ["- ${1:list-item} $0"],
+    "description": "Markdown Unordered List"
+  },
+  "Task List": {
+    "prefix": "md-task-list ",
+    "body": ["- [${1| ,x|}] ${2:task-item} $0"],
+    "description": "Markdown Task List"
+  },
+  "Link": {
+    "prefix": "md-link",
+    "body": [
+      "[${1:link-text}](${2|https://,http://,mailto:,/,#|}${3:link-url}) $0"
+    ],
+    "description": "Markdown Link"
+  },
+  "Table Header": {
+    "prefix": "md-table-header",
+    "body": [
+      "| ${1:Column1}  | ${2:Column2}   | ${3:Column3}   |",
+      "| ${4|:----,:----:,----:|} | ${5|:----,:----:,----:|} | ${6|:----,:----:,----:|} |",
+      "${0}"
+    ],
+    "description": "Markdown Table Header"
+  },
+  "Table Row": {
+    "prefix": "md-table-row",
+    "body": ["| ${1:Item1}  | ${2:Item2}   | ${3:Item3}   |", "${0}"],
+    "description": "Markdown Table Row"
+  },
+  "Emoji": {
+    "prefix": "md-emoji",
+    "body": [":${1:emoji-name}: ${0}"],
+    "description": "Markdown Emoji"
+  },
+  "Mention": {
+    "prefix": "md-mention",
+    "body": ["@${1:text} ${0}"],
+    "description": "Markdown Mention"
+  },
+  "Horizontal Rule": {
+    "prefix": "md-horizontal-rule",
+    "body": ["----------\n"],
+    "description": "Markdown Horizontal Rule"
+  },
+  "Image": {
+    "prefix": "md-image",
+    "body": ["![${2:alt-text}](${1:path-to-image}) ${0}"],
+    "description": "Markdown Image"
+  },
+  "Bloquote": {
+    "prefix": "md-bloquote",
+    "body": ["> ${1:bloquote} ${0}"],
+    "description": "Markdown Bloquote"
+  },
+  "Bloquote Nested": {
+    "prefix": "md-bloquote-nested",
+    "body": [">> ${1:bloquote} ${0}"],
+    "description": "Markdown Nested Bloquote"
+  },
+  "Comment": {
+    "prefix": "md-comment",
+    "body": ["<!--- ${1:comment} ---> ${0}"],
+    "description": "Markdown Comment"
+  }
+}
+
