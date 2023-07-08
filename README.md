@@ -27,7 +27,7 @@
   </a>
   <a href="https://ko-fi.com/amerey">
     <img
-      src="https://img.shields.io/badge/Buy%20me%20a%20coffee-$4-orange"
+      src="https://img.shields.io/badge/Buy%20me%20a%20coffee--orange"
       alt="Buy me a coffee" />
   </a>
 </p>
