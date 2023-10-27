@@ -113,9 +113,7 @@
   "Math Block": {
     "prefix": "md-math-block",
     "body": [
-      "```math"
-      "${1:math-equation}"
-      "```"
+      "$$${1:math-equation}$$"
       "${0}"
     ],
     "description": "Markdown Math Block"
