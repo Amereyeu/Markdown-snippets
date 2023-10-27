@@ -43,6 +43,7 @@
 |     md-bold-italic | Markdown Bold Italic Text   |
 |         md-comment | Markdown Comment            |
 |           md-emoji | Markdown Emoji              |
+|        md-footnote | Markdown Footnote           |
 |       md-heading-1 | Markdown Heading 1          |
 |       md-heading-2 | Markdown Heading 2          |
 |       md-heading-3 | Markdown Heading 3          |
@@ -54,6 +55,8 @@
 |           md-image | Markdown Image              |
 |          md-italic | Markdown Italic Text        |
 |            md-link | Markdown Link               |
+|      md-math-block | Markdown Math Block         |
+|     md-math-inline | Markdown Math Inline        |
 |         md-mention | Markdown Mention            |
 |    md-ordered-list | Markdown Ordered List       |
 |   md-strikethrough | Markdown Strikethrough Text |
