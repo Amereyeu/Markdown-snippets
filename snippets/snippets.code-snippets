@@ -100,6 +100,34 @@
     "body": [":${1:emoji-name}: ${0}"],
     "description": "Markdown Emoji"
   },
+  "Footnote": {
+    "prefix": "md-footnote",
+    "body": [
+      "[^${1:footnote-number}]"
+      ""
+      "[^$1]: ${2:footnote-reference}"
+      "${0}"
+    ],
+    "description": "Markdown Footnote"
+  },
+  "Math Block": {
+    "prefix": "md-math-block",
+    "body": [
+      "```math"
+      "${1:math-equation}"
+      "```"
+      "${0}"
+    ],
+    "description": "Markdown Math Block"
+  },
+  "Math Inline": {
+    "prefix": "md-math-inline",
+    "body": [
+      "$ ${1:math-equation} $"
+      "${0}"
+    ],
+    "description": "Markdown Math Inline"
+  },
   "Mention": {
     "prefix": "md-mention",
     "body": ["@${1:text} ${0}"],
