@@ -1,11 +1,11 @@
 {
   "Inline Code": {
-    "prefix": "md-inline",
+    "prefix": "md-code-inline",
     "description": "Markdown Inline Code",
     "body": ["`$1` $0"]
   },
   "Block Code": {
-    "prefix": "md-block",
+    "prefix": "md-code-block",
     "body": ["```$1", "$2", "```$0"],
     "description": "Markdown Blog Code"
   },
@@ -123,7 +123,7 @@
   "Math Inline": {
     "prefix": "md-math-inline",
     "body": [
-      "$ ${1:math-equation} $"
+      "$${1:math-equation}$"
       "${0}"
     ],
     "description": "Markdown Math Inline"

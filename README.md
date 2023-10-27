@@ -36,8 +36,9 @@
 
 |            Snippet | Description                 |
 | -----------------: | :-------------------------- |
-|           md-block | Markdown Blog Code          |
 |        md-bloquote | Markdown Bloquote           |
+|      md-code-block | Markdown Blog Code          |
+|     md-code-inline | Markdown Inline Code        |
 | md-bloquote-nested | Markdown Nested Bloquote    |
 |            md-bold | Markdown Bold Text          |
 |     md-bold-italic | Markdown Bold Italic Text   |
@@ -51,7 +52,6 @@
 |       md-heading-5 | Markdown Heading 5          |
 |       md-heading-6 | Markdown Heading 6          |
 | md-horizontal-rule | Markdown Horizontal Rule    |
-|          md-inline | Markdown Inline Code        |
 |           md-image | Markdown Image              |
 |          md-italic | Markdown Italic Text        |
 |            md-link | Markdown Link               |
