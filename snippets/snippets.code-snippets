@@ -155,6 +155,30 @@
     "prefix": "md-comment",
     "body": ["<!--- ${1:comment} ---> ${0}"],
     "description": "Markdown Comment"
+  },
+  "Note": {
+    "prefix": "md-note",
+    "body": ["> [!NOTE]\n> ${0}"],
+    "description": "Markdown Note"
+  },
+  "Tip": {
+    "prefix": "md-tip",
+    "body": ["> [!TIP]\n> ${0}"],
+    "description": "Markdown Tip"
+  },
+  "Important": {
+    "prefix": "md-important",
+    "body": ["> [!IMPORTANT]\n> ${0}"],
+    "description": "Markdown Important"
+  },
+  "Warning": {
+    "prefix": "md-warning",
+    "body": ["> [!WARNING]\n> ${0}"],
+    "description": "Markdown Warning"
+  },
+  "Caution": {
+    "prefix": "md-caution",
+    "body": ["> [!CAUTION]\n> ${0}"],
+    "description": "Markdown Caution"
   }
 }
-
