@@ -7,3 +7,7 @@
 
 - Added Footnote and Math snippets
 
+
+## [1.0.7]
+
+- Added Alerts (thanks @SidonTheTroll)

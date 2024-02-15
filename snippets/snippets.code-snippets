@@ -7,7 +7,7 @@
   "Block Code": {
     "prefix": "md-code-block",
     "body": ["```$1", "$2", "```$0"],
-    "description": "Markdown Blog Code"
+    "description": "Markdown Code Block"
   },
   "Heading 1": {
     "prefix": "md-heading-1",
@@ -157,28 +157,28 @@
     "description": "Markdown Comment"
   },
   "Note": {
-    "prefix": "md-note",
+    "prefix": "md-alert-note",
     "body": ["> [!NOTE]\n> ${0}"],
-    "description": "Markdown Note"
+    "description": "Markdown Alert Note"
   },
   "Tip": {
-    "prefix": "md-tip",
+    "prefix": "md-alert-tip",
     "body": ["> [!TIP]\n> ${0}"],
-    "description": "Markdown Tip"
+    "description": "Markdown Alert Tip"
   },
   "Important": {
-    "prefix": "md-important",
+    "prefix": "md-alert-important",
     "body": ["> [!IMPORTANT]\n> ${0}"],
-    "description": "Markdown Important"
+    "description": "Markdown Alert Important"
   },
   "Warning": {
-    "prefix": "md-warning",
+    "prefix": "md-alert-warning",
     "body": ["> [!WARNING]\n> ${0}"],
-    "description": "Markdown Warning"
+    "description": "Markdown Alert Warning"
   },
   "Caution": {
-    "prefix": "md-caution",
+    "prefix": "md-alert-caution",
     "body": ["> [!CAUTION]\n> ${0}"],
-    "description": "Markdown Caution"
+    "description": "Markdown Alert Caution"
   }
 }

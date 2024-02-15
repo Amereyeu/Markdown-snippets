@@ -36,8 +36,13 @@
 
 |            Snippet | Description                 |
 | -----------------: | :-------------------------- |
+|   md-alert-caution | Markdown Alert Caution      |
+| md-alert-important | Markdown Alert Important    |
+|      md-alert-note | Markdown Alert Note         |
+|       md-alert-tip | Markdown Alert Tip          |
+|   md-alert-warning | Markdown Alert Warning      |
+|      md-code-block | Markdown Block Code         |
 |        md-bloquote | Markdown Bloquote           |
-|      md-code-block | Markdown Blog Code          |
 |     md-code-inline | Markdown Inline Code        |
 | md-bloquote-nested | Markdown Nested Bloquote    |
 |            md-bold | Markdown Bold Text          |
