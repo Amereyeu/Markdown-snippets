@@ -64,6 +64,7 @@
 |     md-math-inline | Markdown Math Inline        |
 |         md-mention | Markdown Mention            |
 |    md-ordered-list | Markdown Ordered List       |
+|      md-page-break | Markdown Page Break         |
 |   md-strikethrough | Markdown Strikethrough Text |
 |       md-task-list | Markdown Task List          |
 |    md-table-header | Markdown Table Header       |
@@ -85,4 +86,3 @@ Snippets are only active in Markdown files. If they do not show up edit your `se
 ```
 
 ![example](./images/example.gif)
-

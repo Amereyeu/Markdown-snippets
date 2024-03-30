@@ -103,9 +103,9 @@
   "Footnote": {
     "prefix": "md-footnote",
     "body": [
-      "[^${1:footnote-number}]"
-      ""
-      "[^$1]: ${2:footnote-reference}"
+      "[^${1:footnote-number}]",
+      "",
+      "[^$1]: ${2:footnote-reference}",
       "${0}"
     ],
     "description": "Markdown Footnote"
@@ -113,7 +113,7 @@
   "Math Block": {
     "prefix": "md-math-block",
     "body": [
-      "$$${1:math-equation}$$"
+      "$$${1:math-equation}$$",
       "${0}"
     ],
     "description": "Markdown Math Block"
@@ -121,7 +121,7 @@
   "Math Inline": {
     "prefix": "md-math-inline",
     "body": [
-      "$${1:math-equation}$"
+      "$${1:math-equation}$",
       "${0}"
     ],
     "description": "Markdown Math Inline"
@@ -180,5 +180,11 @@
     "prefix": "md-alert-caution",
     "body": ["> [!CAUTION]\n> ${0}"],
     "description": "Markdown Alert Caution"
-  }
+  },
+  "Page Break": {
+    "prefix": "md-page-break",
+    "body": [
+      "<div style=\"page-break-after: always;\"></div>\n $0"],
+    "description": "Markdown Page Break"
+  },
 }
