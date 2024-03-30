@@ -12,6 +12,7 @@
 
 - Added Alerts (thanks @SidonTheTroll)
 
+
 ## [1.0.8]
 
 - Added Page Break option for PDF export

@@ -40,37 +40,37 @@
     "description": "Markdown Heading 6"
   },
   "Italic Text": {
-    "prefix": "md-italic ",
+    "prefix": "md-italic",
     "body": ["*${1:italic}* $0"],
     "description": "Markdown Italic Text"
   },
   "Bold Text": {
-    "prefix": "md-bold ",
+    "prefix": "md-bold",
     "body": ["**${1:bold}** $0"],
     "description": "Markdown Bold Text"
   },
   "Bold Italic Text": {
-    "prefix": "md-bold-italic ",
+    "prefix": "md-bold-italic",
     "body": ["***${1:bold-italic}*** $0"],
     "description": "Markdown Bold Italic Text"
   },
   "Strikethrough Text": {
-    "prefix": "md-strikethrough ",
+    "prefix": "md-strikethrough",
     "body": ["~~${1:strikethrough}~~ $0"],
     "description": "Markdown Strikethrough Text"
   },
   "Ordered List": {
-    "prefix": "md-ordered-list ",
+    "prefix": "md-ordered-list",
     "body": ["1. ${1:list-item} $0"],
     "description": "Markdown Ordered List"
   },
   "Unordered List": {
-    "prefix": "md-unordered-list ",
+    "prefix": "md-unordered-list",
     "body": ["- ${1:list-item} $0"],
     "description": "Markdown Unordered List"
   },
   "Task List": {
-    "prefix": "md-task-list ",
+    "prefix": "md-task-list",
     "body": ["- [${1| ,x|}] ${2:task-item} $0"],
     "description": "Markdown Task List"
   },
@@ -141,15 +141,15 @@
     "body": ["![${2:alt-text}](${1:path-to-image}) ${0}"],
     "description": "Markdown Image"
   },
-  "Bloquote": {
-    "prefix": "md-bloquote",
-    "body": ["> ${1:bloquote} ${0}"],
-    "description": "Markdown Bloquote"
+  "Blockquote": {
+    "prefix": "md-blockquote",
+    "body": ["> ${1:blockquote} ${0}"],
+    "description": "Markdown Blockquote"
   },
-  "Bloquote Nested": {
-    "prefix": "md-bloquote-nested",
-    "body": [">> ${1:bloquote} ${0}"],
-    "description": "Markdown Nested Bloquote"
+  "Blockquote Nested": {
+    "prefix": "md-blockquote-nested",
+    "body": [">> ${1:blockquote} ${0}"],
+    "description": "Markdown Nested Blockquote"
   },
   "Comment": {
     "prefix": "md-comment",
