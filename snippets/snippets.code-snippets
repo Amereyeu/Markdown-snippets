@@ -184,7 +184,7 @@
   "Page Break": {
     "prefix": "md-page-break",
     "body": [
-      "<div style=\"page-break-after: always;\"></div>\n $0"],
+      "<div style=\"page-break-after: always;\"></div>\n$0"],
     "description": "Markdown Page Break"
   },
 }
