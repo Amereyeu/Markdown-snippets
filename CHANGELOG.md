@@ -16,3 +16,8 @@
 ## [1.0.8]
 
 - Added Page Break option for PDF export
+
+
+## [1.0.10]
+
+- Page Break fix (thanks @SidonTheTroll)
