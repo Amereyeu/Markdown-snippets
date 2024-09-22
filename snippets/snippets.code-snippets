@@ -6,7 +6,11 @@
   },
   "Block Code": {
     "prefix": "md-code-block",
-    "body": ["```$1", "$2", "```$0"],
+    "body": [
+      "```${1|c,c#,c++,console,css,go,htm,java,javascript,json,markdown,php,python,ruby|}",
+      "$2",
+      "```$0"
+    ],
     "description": "Markdown Code Block"
   },
   "Heading 1": {

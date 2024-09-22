@@ -21,3 +21,8 @@
 ## [1.0.10]
 
 - Page Break fix (thanks @SidonTheTroll)
+
+
+## [1.0.11]
+
+- Code block - added language options: python, c, c++, c#, ruby, go, java, php, htm, css, javascript, json, markdown, console
